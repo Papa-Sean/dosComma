@@ -1,0 +1,11 @@
+<h1>Welcome Biteches</h1>
+{{#if published}}
+    {{content}}
+{{/if}}
+<ul class="list-group">
+{{#each people}}
+    <li class="list-group-item names" id="names" aria-current="true">{{this.name}} {{this.lastName}}</li>
+{{/each}}
+</ul>
+<button id="button-click">click</button>
+

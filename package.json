@@ -1,0 +1,25 @@
+{
+  "name": "doscomma",
+  "version": "1.0.0",
+  "description": "Rotten Inventory Application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "4.17.1",
+    "express-handlebars": "5.2.0",
+    "path": "^0.12.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Papa-Sean/dosComma.git"
+  },
+  "author": "Papa Sean",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Papa-Sean/dosComma/issues"
+  },
+  "homepage": "https://github.com/Papa-Sean/dosComma#readme"
+}
