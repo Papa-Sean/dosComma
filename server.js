@@ -12,21 +12,25 @@ app.set('port', (process.env.PORT || 3000));
 
 var inventory = [
     {
+        id: 1,
         sex:'W',
         style:'HD',
         size: 'L'
     },
     {
+        id: 2,
         sex:'M',
         style:'TS',
         size: 'S'
     },
     {
+        id: 3,
         sex:'W',
         style:'TS',
         size: 'M'
     },
     {
+        id: 4,
         sex:'M',
         style:'HD',
         size: 'L'
