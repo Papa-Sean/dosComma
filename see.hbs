@@ -1,0 +1,16 @@
+<h1>See Current Inventory {{this.id}}</h1>
+
+<form data-id="{{this.id}}" class="update-form">
+
+  <div class="form-group">
+    <label for="auth">View:</label>
+    <input type="checkbox" id="auth" name="author" value="{{id, gender, style, size}}">
+  </div>
+
+  <div class="form-group">
+    <label for="quo">View:</label>
+    <textarea id="quo" name="quote" rows="8" cols="40">{{id, gender, style, size}}</textarea>
+  </div>
+
+  <button type="submit">View Inventory</button>
+</form>
