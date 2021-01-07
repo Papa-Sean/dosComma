@@ -10,14 +10,26 @@ app.set('view engine', 'handlebars');
 
 app.set('port', (process.env.PORT || 3000));
 
-var people = [
+var inventory = [
     {
-        firstName:'Papa',
-        lastName:'Sean'
+        sex:'W',
+        style:'HD',
+        size: 'L'
     },
     {
-        firstName:'Jacob',
-        lastName:'Blazer'
+        sex:'M',
+        style:'TS',
+        size: 'S'
+    },
+    {
+        sex:'W',
+        style:'TS',
+        size: 'M'
+    },
+    {
+        sex:'M',
+        style:'HD',
+        size: 'L'
     }
 ];
 
@@ -25,10 +37,11 @@ app.get('/', function(req, res){
     res.render('home',{
         content:'THIS IS SOME CONTENT',
         published: false,
-        people: people
+        inventory: inventory
     });
 });
 
 app.listen(app.get('port'), function(){
     console.log('CATCH ME IF YOU CAN! ON PORT: ' +app.get('port'));
 });
+
