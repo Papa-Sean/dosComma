@@ -3,8 +3,8 @@
     {{content}}
 {{/if}}
 <ul class="list-group">
-{{#each people}}
-    <li class="list-group-item names" id="names" aria-current="true">{{this.name}} {{this.lastName}}</li>
+{{#each inventory}}
+    <li class="list-group-item names" id="names" aria-current="true">{{this.id}} {{this.sex}} {{this.style}} {{this.size}}</li>
 {{/each}}
 </ul>
 <button id="button-click">click</button>
